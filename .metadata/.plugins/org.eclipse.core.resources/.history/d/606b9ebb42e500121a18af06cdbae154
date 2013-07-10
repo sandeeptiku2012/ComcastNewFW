@@ -1,0 +1,16 @@
+package SuiteRunner;
+
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+
+import VideoManagement.VideoFeedBackManagement.ValidateMandatoryFields.ValidateAllMandatoryFieldsOfGiveFeedbackToThePublisher;
+
+@RunWith(Suite.class)
+@Suite.SuiteClasses({
+	//ValidatePaymentInfoYearFieldByEnteringPastYear.class,
+	ValidateAllMandatoryFieldsOfGiveFeedbackToThePublisher.class
+})
+
+public class TempForTesting {
+	
+}

@@ -1,0 +1,64 @@
+package UserManagement.ProfileManagement.RegisteredUserTestCasesForChangePaymentInfo.ValidateExpiryMonthField;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+
+import ConfigServices.DataServiceProperties;
+import ConfigServices.Utils.BaseTest;
+import Core.UserManagement.ProfileManagement.Scenario.ProfileManagementScenarioBasedFunctions;
+import Core.UserManagement.UserLoginFunctions.Common.UserLoginFunctions;
+import DataServices.UserRegistrationUsingComcastApplication.UserRegistrationUsingComcast;
+
+/**  
+ * Class Name: ValidateChangePaymentInfoCreditCardNumber
+ * Description: This test case validates payment Details Credit Card with Invalid Input
+ * By logging registered user into Comcast application.
+ * **/
+
+public class ValidatePaymentInfoMonthByEnteringInvalidMonth extends BaseTest{
+	
+	UserLoginFunctions userLogin=new UserLoginFunctions();
+	UserRegistrationUsingComcast userReg=new UserRegistrationUsingComcast();
+	ProfileManagementScenarioBasedFunctions profMangScenarioFun=new ProfileManagementScenarioBasedFunctions();
+	
+	@Test
+	  public void testUserProfileChanges() throws Exception {
+		
+		//This method is used to register new user into Comcast Application
+		userReg.testUserRegistrationUsingComcast(driver);
+		
+		driver.get(DataServiceProperties.APPURL);
+		
+		//This method is used to enter user name and password credential
+		userLogin.UserLoginCredentials(driver);
+		
+		driver.findElement(By.id("user_login")).click();
+
+		//This method is used to Change Password
+		userLogin.ChangePassword(driver);
+		
+		driver.findElement(By.name("commit")).click();
+		
+		Thread.sleep(4000);
+		
+	    assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*HOME[\\s\\S]*$"));
+	    
+	    driver.findElement(By.cssSelector("span.translation_missing")).click();
+	    
+	    driver.findElement(By.linkText("Change payment info")).click();
+	    
+	    //This method is used to validate invalid month
+	    profMangScenarioFun.ValidateInvalidMonth(driver);
+	        
+	    driver.findElement(By.cssSelector("#uniform-undefined > span")).click();
+	    
+	    Thread.sleep(1000);
+	    assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*Please enter Expiration Month between 1 and 12.[\\s\\S]*$"));
+	    
+	    driver.findElement(By.linkText("Sign out")).click();
+}
+}
+

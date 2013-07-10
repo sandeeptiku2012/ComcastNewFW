@@ -1,0 +1,47 @@
+[0709/163956:INFO:chromedriver_server.cc(76)] Handling request: /status 
+[0709/163956:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":{"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"6.1 SP1"}}}
+[0709/163956:INFO:chromedriver_server.cc(76)] Handling request: /session {"desiredCapabilities":{"platform":"ANY","browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","chrome.switches":[]}}
+[0709/163956:INFO:chrome_launcher.cc(74)] Using chrome from C:\Users\Anjum.Jamadar\AppData\Local\Google\Chrome\Application\chrome.exe
+[0709/163956:INFO:chromedriver_server.cc(81)] Done handling request: 303 
+[0709/163956:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936 
+[0709/163956:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","cssSelectorsEnabled":true,"databaseEnabled":true,"driverVersion":"0.8","handlesAlerts":true,"javascriptEnabled":true,"locationContextEnabled":true,"nativeEvents":true,"platform":"Windows NT","rotatable":false,"takesScreenshot":true,"version":"27.0.1453.116","webStorageEnabled":true}}
+[0709/163956:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/refresh {}
+[0709/163957:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":null}
+[0709/163957:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/timeouts/implicit_wait {"ms":30000}
+[0709/163957:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":null}
+[0709/163957:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/url {"url":"http://192.168.136.202:3000/login"}
+[0709/164000:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":null}
+[0709/164000:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/element {"using":"name","value":"user[user_name]"}
+[0709/164000:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":{"ELEMENT":"0.2788305548019707:1"}}
+[0709/164000:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/element/0.2788305548019707:1/clear {"id":"0.2788305548019707:1"}
+[0709/164000:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":null}
+[0709/164000:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/element {"using":"name","value":"user[user_name]"}
+[0709/164000:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":{"ELEMENT":"0.2788305548019707:1"}}
+[0709/164000:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/element/0.2788305548019707:1/value {"id":"0.2788305548019707:1","value":["Xidio090713042548@test.com"]}
+[0709/164000:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":null}
+[0709/164000:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/element {"using":"name","value":"user[password]"}
+[0709/164000:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":{"ELEMENT":"0.2788305548019707:2"}}
+[0709/164000:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/element/0.2788305548019707:2/clear {"id":"0.2788305548019707:2"}
+[0709/164000:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":null}
+[0709/164000:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/element {"using":"name","value":"user[password]"}
+[0709/164000:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":{"ELEMENT":"0.2788305548019707:2"}}
+[0709/164000:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/element/0.2788305548019707:2/value {"id":"0.2788305548019707:2","value":["Password@1"]}
+[0709/164000:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":null}
+[0709/164000:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/element {"using":"id","value":"user_login"}
+[0709/164000:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":{"ELEMENT":"0.2788305548019707:3"}}
+[0709/164000:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/element/0.2788305548019707:3/click {"id":"0.2788305548019707:3"}
+[0709/164005:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":null}
+[0709/164007:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/element {"using":"css selector","value":"BODY"}
+[0709/164007:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":{"ELEMENT":"0.3703121333383024:1"}}
+[0709/164007:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/element/0.3703121333383024:1/text 
+[0709/164007:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":"Help\nHello xidio090713042548@test.com\nSign out\nSTORE\nHOME\nSUBSCRIPTIONS\nCurrent password\nEnter current password\nNew password\nEnter new password\nConfirm password\nConfirm new password\n  Change password\n\u00A9 2012 Comcast\nPrivacy Policy\nTerms of Service\nAdvertise with Us\nContact Us"}
+[0709/164007:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/element {"using":"link text","value":"Sign out"}
+[0709/164007:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":{"ELEMENT":"0.3703121333383024:2"}}
+[0709/164007:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/element/0.3703121333383024:2/click {"id":"0.3703121333383024:2"}
+[0709/164010:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":null}
+[0709/164010:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936/refresh {}
+[0709/164011:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":null}
+[0709/164011:INFO:chromedriver_server.cc(76)] Handling request: /session/470002d17084000cc76bef7a1997f936 
+[0709/164012:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"470002d17084000cc76bef7a1997f936","status":0,"value":null}
+[0709/164012:INFO:chromedriver_server.cc(76)] Handling request: /shutdown 
+[0709/164012:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":null}

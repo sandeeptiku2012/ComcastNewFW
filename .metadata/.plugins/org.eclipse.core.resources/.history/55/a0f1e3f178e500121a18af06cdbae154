@@ -1,0 +1,63 @@
+package UserManagement.ProfileManagement.RegisteredUserTestCasesForChangePaymentInfo;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+
+import ConfigServices.DataServiceProperties;
+import ConfigServices.Utils.BaseTest;
+import Core.UserManagement.UserLoginFunctions.Common.UserLoginFunctions;
+import Core.UserManagement.UserRegistrationFunction.Scenario.UserRegistrationValidationFuncitons;
+import DataServices.UserRegistrationUsingComcastApplication.UserRegistrationUsingComcast;
+
+/**  
+ * Class Name: ChangeCreditCardDetails
+ * Description: This test case validates payment Details updation feature by
+ * logging registered user into Comcast application.
+ * **/
+
+public class ValidateChangePaymentInfoDetailsUpdatedSuccessfully extends BaseTest{
+	
+	  UserLoginFunctions userLogin=new UserLoginFunctions();
+	  UserRegistrationValidationFuncitons userRegValFun=new UserRegistrationValidationFuncitons();
+	  UserRegistrationUsingComcast userReg=new UserRegistrationUsingComcast();
+	
+	  @Test
+	  public void testUserProfileChanges() throws Exception {
+		  
+		try{
+		//This method is used to register new user into Comcast Application
+		userReg.testUserRegistrationUsingComcast(driver);
+		driver.get(DataServiceProperties.APPURL);
+		
+		//This method is used to enter user name and password credential
+		userLogin.UserLoginCredentials(driver);
+
+		//This method is used to Change Password
+		userLogin.ChangePassword(driver);
+		
+	    assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*HOME[\\s\\S]*$"));
+	    
+	    driver.findElement(By.cssSelector("span.translation_missing")).click();
+	    
+	    driver.findElement(By.linkText("Change payment info")).click();
+	    
+	    //This method is used to update credit card details
+	    userRegValFun.UpdateCCDetials(driver);
+	        
+	    driver.findElement(By.cssSelector("#uniform-undefined > span")).click();
+	    
+	    Thread.sleep(2000);
+	    assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*HOME[\\s\\S]*$"));
+	    
+	    driver.findElement(By.linkText("Sign out")).click();
+	    
+		}
+		catch(Exception e){
+			
+			takeScreeFailedshots();
+		}
+}
+}
+

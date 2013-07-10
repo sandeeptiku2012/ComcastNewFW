@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="VideoManagement.VideoSubscriptionManagement.PaidSubscriptionForVideo.UnsubscribeUserSubscribedVideo"/>
+<fullyQualifiedTypeName name="UserManagement.ProfileManagement.RegisteredUserTestCasesForChangePaymentInfo.ValidateYearField.ValidatePaymentInfoYearFieldByEnteringPastYear"/>
+<fullyQualifiedTypeName name="VideoManagement.VideoFeedBackManagement.ValidateMandatoryFields.ValidateAllMandatoryFieldsOfGiveFeedbackToThePublisher"/>
+<fullyQualifiedTypeName name="VideoManagement.VideoFeedBackManagement.ValidateMandatoryFields.ValidateFeedbackMessageMandatoryField"/>
+<fullyQualifiedTypeName name="Core.UserManagement.UserLoginFunctions.Common.UserLoginFunctions"/>
+<fullyQualifiedTypeName name="ConfigServices.DataServiceProperties"/>
+</qualifiedTypeNameHistroy>

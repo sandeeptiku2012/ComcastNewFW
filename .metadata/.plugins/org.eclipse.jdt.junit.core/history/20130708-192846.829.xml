@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="VerifySelectedCategoryAndSubCategoryVideosAreDisplayed" project="Comcast" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="VideoManagement.VideoSearchFunctionality.SearchVideoByCategory.VerifySelectedCategoryAndSubCategoryVideosAreDisplayed" time="32.343">
+    <testcase name="testVerifySelectedCategoryAndSubCategoryVideosAreDisplayed" classname="VideoManagement.VideoSearchFunctionality.SearchVideoByCategory.VerifySelectedCategoryAndSubCategoryVideosAreDisplayed" time="32.343"/>
+  </testsuite>
+</testrun>

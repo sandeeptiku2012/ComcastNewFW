@@ -1,0 +1,51 @@
+package UserManagement.ProfileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateMobileNumberField;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+
+import ConfigServices.DataServiceProperties;
+import ConfigServices.Utils.BaseTest;
+import ConfigServices.Utils.TestDataGenerator;
+import Core.UserManagement.UserLoginFunctions.Common.UserLoginFunctions;
+import DataServices.UserRegistrationUsingComcastApplication.UserRegistrationUsingComcast;
+
+/**
+ * Class Name: ExitXidioUserMobileNumber
+ * Description: This test case exits Xidio user mobile number
+ * by logging registered user into Comcast application.
+ **/
+
+public class ExitXidioUserMobileNumber extends BaseTest{
+	UserRegistrationUsingComcast userRegDS=new UserRegistrationUsingComcast();
+	UserLoginFunctions userLogin=new UserLoginFunctions();
+	
+	@Test
+	  public void testEditXidioUserEmail() throws Exception {
+		
+		//This method is used to register new user into Comcast Application
+	    userRegDS.testUserRegistrationUsingComcast(driver);
+	    
+	    //This method is used to enter user name and password credential
+	    userLogin.UserLoginCredentials(driver);
+	    
+	    //This method is used to Change Password
+	    userLogin.ChangePassword(driver);
+	    
+	    Thread.sleep(4000);
+	    driver.findElement(By.cssSelector("span.translation_missing")).click();
+	    		
+		Thread.sleep(4000);
+	    
+	    driver.findElement(By.name("user[mobile_number]")).clear();
+	    driver.findElement(By.name("user[mobile_number]")).sendKeys(DataServiceProperties._UPD_MOBILE_NUMBER);
+	    
+	    driver.findElement(By.linkText("Save profile")).click();
+	    
+	    driver.findElement(By.cssSelector("span.translation_missing")).click();
+	    assertEquals(DataServiceProperties._MOBILE_NUMBER, driver.findElement(By.name("user[mobile_number]")).getAttribute("value"));
+	    driver.findElement(By.linkText("Sign out")).click();
+	  }
+
+}

@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="6" failures="18" hostname="blrwks0043" id="0" name="runATFRegression" package="comcast.test.testSuite" tests="83" time="5612.25" timestamp="2013-07-09T15:02:51">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_05\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_05\jre\classes" />
+
+          <property name="env.COMPUTERNAME" value="BLRWKS0043" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Program Files\apache-ant-1.7.0" />
+
+          <property name="java.runtime.version" value="1.7.0_05-b05" />
+
+          <property name="env.HOMEPATH" value="\Users\Anjum.Jamadar" />
+
+          <property name="user.name" value="anjum.jamadar" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.windows_tracing_flags" value="3" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_05\jre\bin" />
+
+          <property name="ant.project.name" value="Selenium_Web_Driver" />
+
+          <property name="java.version" value="1.7.0_05" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 15 Stepping 13, GenuineIntel" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="env.TEMP" value="C:\Users\ANJUM~1.JAM\AppData\Local\Temp" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_05\jre\lib\endorsed" />
+
+          <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.7.0_05\bin\java.exe" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_05\jre" />
+
+          <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+
+          <property name="env.APPDATA" value="C:\Users\Anjum.Jamadar\AppData\Roaming" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="env.windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="env.CATALINA_HOME" value="C:\Program Files (x86)\Apache Software Foundation\apache-tomcat-7.0.37" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="ant.file" value="G:\ComcastNewFW\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env._USE_CLASSPATH" value="no" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="23.1-b03" />
+
+          <property name="env.USERPROFILE" value="C:\Users\Anjum.Jamadar" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Program Files\apache-ant-1.7.0\lib" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.7.0_05" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\Users\ANJUM~1.JAM\AppData\Local\Temp" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="ant.file.Selenium_Web_Driver" value="G:\ComcastNewFW\build.xml" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Anjum.Jamadar" />
+
+          <property name="target" value="1.6" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="2" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_05\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files\Java\jdk1.7.0_05\bin;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\apache-ant-1.7.0\bin;C:\Program Files (x86)\ZipGenius 6\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Apache Software Foundation\apache-tomcat-7.0.37\bin;C:\Ruby200-x64\bin;C:\Users\valtechsa\AppData\Local\Google\Chrome\Application\chrome.exe;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby1.9.3\bin;C:\Ruby200-x64\bin;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="env.USERDNSDOMAIN" value="IN.VALTECH.COM" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="java.class.path" value="G:\ComcastNewFW\bin;G:\ComcastNewFW\lib\selenium-server-standalone-2.32.0.jar;C:\Program Files\apache-ant-1.7.0\lib\ant-launcher.jar;C:\Program Files\apache-ant-1.7.0\lib\ant.jar;C:\Program Files\apache-ant-1.7.0\lib\ant-junit.jar" />
+
+          <property name="ant.version" value="Apache Ant version 1.7.0 compiled on December 13 2006" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner comcast.test.testSuite.runATFRegression filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,G:\ComcastNewFW\junit\TEST-comcast.test.testSuite.runATFRegression.xml crashfile=G:\ComcastNewFW\junitvmwatcher664031024.properties propsfile=G:\ComcastNewFW\junit1460079427.properties" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="env.LOGONSERVER" value="\\INBLR-AD03" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="env.ANT_HOME" value="C:\Program Files\apache-ant-1.7.0" />
+
+          <property name="env.PROCESSOR_REVISION" value="0f0d" />
+
+          <property name="java.io.tmpdir" value="C:\Users\ANJUM~1.JAM\AppData\Local\Temp\" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.ANT_CMD_LINE_ARGS" value="runATFRegressionTC" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_05\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="env.webdriver.chrome.driver" value="C:\Users\valtechsa\AppData\Local\Google\Chrome\Application\chrome.exe" />
+
+          <property name="user.dir" value="G:\ComcastNewFW" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\Anjum.Jamadar\AppData\Local" />
+
+          <property name="env.RUBY_HOME" value="C:\Ruby200-x64\bin" />
+
+          <property name="line.separator" value=" " />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW" />
+
+          <property name="env.Path" value="C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files\Java\jdk1.7.0_05\bin;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\apache-ant-1.7.0\bin;C:\Program Files (x86)\ZipGenius 6\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Apache Software Foundation\apache-tomcat-7.0.37\bin;C:\Ruby200-x64\bin;C:\Users\valtechsa\AppData\Local\Google\Chrome\Application\chrome.exe;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby1.9.3\bin;C:\Ruby200-x64\bin" />
+
+          <property name="basedir" value="G:\ComcastNewFW" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.core.lib" value="C:\Program Files\apache-ant-1.7.0\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="anjum.jamadar" />
+
+          <property name="source" value="1.6" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="env.USERDOMAIN" value="IN" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+      </properties>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForActivationCode.UserRegByClickingOnActivationCode.RegisterToXidioApplicationByClickingActivation" name="testRegistrationToXidioApplicationByClickingActivation" time="75.82" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.RegisterToXidioApplicationUsingValidCredentials" name="testRegisterToXidioApplicationUsingValidCredentials" time="74.716" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForActivationCode.UserRegBySkipingActivationCode.RegisterToXidioApplicationBySkipingPaymentStepAndActivationStep" name="testRegistrationToXidioApplicationBySkipingPaymentStepAndActivationStep" time="77.295" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForTermsAndCondition.UserRegByDeclineTermAndCondition.RegisterToXidioApplicationWithValidCredentialByDeclineTermAndCondition" name="testRegistrationToXidioApplicationWithValidCredentialByDeclingTermAndCondition" time="101.643" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForPaymentDetails.RegisterToXidioApplicationDirectlyWithPaymentDetailsWithoutPersonalInfo" name="testRegisterToXidioApplicationDirectlyWithPaymentDetailsWithoutPersonalInfo" time="26.266" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForFirstName.UserRegWithNoFirstName.RegisterToXidioApplicationWithoutEnteringFirstName" name="testRegisterToXidioApplicationWithoutEnteringFirstName" time="37.699" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForLastName.UserRegWithNoLastName.RegisterToXidioApplicationWithoutEnteringLastName" name="testRegisterToXidioApplicationWithoutEnteringLastName" time="22.299" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForAddress.UserRegWithNoAddress.RegisterToXidioApplicationWithoutEnteringAddress" name="testRegisterToXidioApplicationWithoutEnteringAddress" time="20.145" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForCity.UserRegWithNoCity.RegisterToXidioApplicationWithoutEnteringCity" name="testRegisterToXidioApplicationWithoutEnteringCity" time="25.63" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForZipCode.UserRegWithNoZipCode.RegisterToXidioApplicationWithoutEnteringZip" name="testRegisterToXidioApplicationWithoutEnteringZip" time="21.002" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForEmail.UserRegWithNoEmailID.RegisterToXidioApplicationWithoutEnteringEmail" name="testRegisterToXidioApplicationWithoutEnteringEmail" time="38.866" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForEmail.UserRegWithInvalidEmailID.UserRegWithInvalidEmailIDMissingInputs.RegisterToXidioApplicationByEnteringInValidEmail" name="testRegisterToXidioApplicationByEnteringInValidEmail" time="25.176" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForZipCode.UserRegWithInvalidZipCode.RegisterToXidioApplicationByEnteringInValidZip" name="testRegisterToXidioApplicationByEnteringInValidZip" time="25.982" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForZipCode.UserRegWithInvalidZipCodeLength.RegisterToXidioApplicationByEnteringInValidZipLength" name="testRegisterToXidioApplicationByEnteringInValidZipLength" time="27.421" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForMobileNumber.UserRegWithNoMobileNumber.RegisterToXidioApplicationWithoutEnteringMobileNumber" name="testRegisterToXidioApplicationWithoutEnteringMobileNumber" time="21.934" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForMobileNumber.UserRegWithInvalidMobileNumber.RegisterToXidioApplicationByEnteringInValidMobileNumber" name="testRegisterToXidioApplicationByEnteringInValidMobileNumber" time="26.873" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForPassword.UserRegWithNoPassword.RegisterToXidioApplicationWithoutEnteringPassword" name="testRegisterToXidioApplicationWithoutEnteringPassword" time="26.359" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForPassword.UserRegWithNoFirstCapitalLetter.RegisterToXidioApplicationByEnteringNonCapitalLetterPassword" name="testRegisterToXidioApplicationByEnteringNonCapitalLetterPassword" time="23.749" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForPassword.UserRegWithNonDigitPassword.RegisterToXidioApplicationByEnteringNonDigitPassword" name="testRegisterToXidioApplicationByEnteringInValidPassword" time="28.558" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForPassword.UserRegWithInvalidPasswordLength.RegisterToXidioApplicationByEnteringInValidLengthOfPassword" name="testRegisterToXidioApplicationByEnteringInValidLengthOfPassword" time="22.124" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForCreditCardDetails.UserRegWithNoCCNumber.RegisterToXidioApplicationWithNoCreditCardNumber" name="testRegisterToXidioApplicationWithNoCreditCardNumber" time="70.326" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForCreditCardDetails.UserRegWithInvalidCCNumber.RegisterToXidioApplicationWithInvalidCreditCardNumber" name="testRegisterToXidioApplicationWithInvalidCreditCardNumber" time="46.921" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForCreditCardDetails.UserRegWithNoSecurityCode.RegisterToXidioApplicationWithNoSecurityCode" name="testRegisterToXidioApplicationWithNoSecurityCode" time="56.307">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForCreditCardDetails.UserRegWithNoSecurityCode.RegisterToXidioApplicationWithNoSecurityCode.testRegisterToXidioApplicationWithNoSecurityCode(RegisterToXidioApplicationWithNoSecurityCode.java:47)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForCreditCardDetails.UserRegWithNoPINCode.RegisterToXidioApplicationWithNoPinCode" name="testRegisterToXidioApplicationWithNoPincode" time="46.967" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForCreditCardDetails.UserRegWithInvalidPin.UserRegWithInvalidPinCodeCharLength.RegisterToXidioApplicationWithInvalidPinCodeCharLength" name="testRegisterToXidioApplicationWithInvalidPinCodeCharLength" time="56.399">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForCreditCardDetails.UserRegWithInvalidPin.UserRegWithInvalidPinCodeCharLength.RegisterToXidioApplicationWithInvalidPinCodeCharLength.testRegisterToXidioApplicationWithInvalidPinCodeCharLength(RegisterToXidioApplicationWithInvalidPinCodeCharLength.java:49)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForCreditCardDetails.UserRegToCheckDiplayPinCheckboxWorks.RegisterToXidioApplicationWithCheckingDiplayPinCheckbox" name="testRegisterToXidioApplicationWithCheckingDiplayPinCheckbox" time="54.387" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForCreditCardDetails.UserRegToCheckDiplayPasswordCheckboxWorks.RegisterToXidioApplicationWithCheckingDiplayPasswordCheckbox" name="testRegisterToXidioApplicationWithCheckingDisplayPasswordCheckbox" time="64.854" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userRegistration.UserRegistrationTestCasesForActivationCode.UserRegWithoutActivationCode.RegisterUserWithoutActivationCode" name="testRegisterUserWithoutActivationCode" time="66.809" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userLogin.ValidateSignOutWorks.CheckSignOutFeatureWorksFine" name="testSignOutFeatureInCamcast" time="20.819" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userLogin.ValidateUserLoginUsingValidCredentials.LoginToXidioApplicationWithValidCredentials" name="testLoginToCamcast" time="22.005" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userLogin.ValidateUserLoginUsingInValidCredentials.LoginToXidioApplicationUsingInValidPassword" name="testLoginToXidioApplicationUsingInValidPassword" time="28.386">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.userManagement.userLogin.ValidateUserLoginUsingInValidCredentials.LoginToXidioApplicationUsingInValidPassword.testLoginToXidioApplicationUsingInValidPassword(LoginToXidioApplicationUsingInValidPassword.java:34)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.userLogin.ValidateUserLoginUsingInValidCredentials.LoginToXidioApplicationUsingInValidUserName" name="testLoginToXidioApplicationUsingInValidUName" time="12.164" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePassword.ResetUserPassword.ResetTheXidioPassword" name="testResetTheXidioPassword" time="15.246" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePassword.ResetUserPasswordWithNoEmail.ResetXidioPasswordWithoutProvidingEmailID" name="testResetXidioPasswordWithoutProvidingEmailID" time="14.368" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePassword.ResetUserPasswordWithInvalidEmail.ResetTheXidioPasswordWithWrongEmail" name="testResetTheXidioPasswordWithWrongEmail" time="15.105" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateAddressField.EditXidioAddressInProfileManagement" name="testEditXidioAddressInProfileManagement" time="78.965" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateLastNameField.EditXidioLastNameInProfileManagement" name="testEditXidioLastNameInProfileManagement" time="91.018">
+          <error message="expected:&lt;[X]idio&gt; but was:&lt;[x]idio&gt;" type="org.junit.ComparisonFailure">	at comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateLastNameField.EditXidioLastNameInProfileManagement.testEditXidioLastNameInProfileManagement(EditXidioLastNameInProfileManagement.java:54)
+</error>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateAddressField.EditXidioAddressInProfileManagement" name="testEditXidioAddressInProfileManagement" time="78.098" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateCityField.EditXidioCityInProfileManagement" name="testEditXidioCityInProfileManagement" time="78.867" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateStateField.EditXidioStateInProfileManagement" name="testEditXidioStateInProfileManagement" time="78.46" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateZipField.EditXidioZipInProfileManagement" name="testEditXidioZipInProfileManagement" time="82.332" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateEmailField.EditXidioUserEmail" name="testEditXidioUserEmail" time="104.916" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateMobileNumberField.ExitXidioUserMobileNumber" name="testEditXidioUserMobileNumber" time="85.402">
+          <error message="expected:&lt;998[3998474]&gt; but was:&lt;998[6064497]&gt;" type="org.junit.ComparisonFailure">	at comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateMobileNumberField.ExitXidioUserMobileNumber.testEditXidioUserMobileNumber(ExitXidioUserMobileNumber.java:52)
+</error>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateFirstNameField.ValidateFirstNameFieldByDeletingValue" name="testValidateFirstNameFieldByDeletingValueInPM" time="82.881">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateFirstNameField.ValidateFirstNameFieldByDeletingValue.testValidateFirstNameFieldByDeletingValueInPM(ValidateFirstNameFieldByDeletingValue.java:51)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateLastNameField.ValidateLastNameFieldByDeletingValue" name="testValidateLastNameFieldByDeletingValueInPM" time="82.31">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateLastNameField.ValidateLastNameFieldByDeletingValue.testValidateLastNameFieldByDeletingValueInPM(ValidateLastNameFieldByDeletingValue.java:48)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateAddressField.ValidateAddressFieldByDeletingValue" name="testValidateAddressFieldByDeletingValueInPM" time="86.695">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateAddressField.ValidateAddressFieldByDeletingValue.testValidateAddressFieldByDeletingValueInPM(ValidateAddressFieldByDeletingValue.java:45)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateCityField.ValidateCityFieldByDeletingValue" name="testValidateCityFieldByDeletingValueInPM" time="79.387">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateCityField.ValidateCityFieldByDeletingValue.testValidateCityFieldByDeletingValueInPM(ValidateCityFieldByDeletingValue.java:45)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateZipField.ValidateZipFieldByDeletingValue" name="testValidateZipFieldByDeletingValue" time="76.57">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateZipField.ValidateZipFieldByDeletingValue.testValidateZipFieldByDeletingValue(ValidateZipFieldByDeletingValue.java:44)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateZipField.ValidateZipFieldByEnteringCharactersValue" name="testValidateZipFieldByCharValue" time="80.062" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateZipField.ValidateZipFieldByEnteringInvalidZipLength" name="testValidateZipFieldByEnteringInvalidLength" time="78.742" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateEmailField.ValidateEmailFieldByDeletingValue" name="testValidateEmailFieldByDeletingValueInPM" time="84.997">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateEmailField.ValidateEmailFieldByDeletingValue.testValidateEmailFieldByDeletingValueInPM(ValidateEmailFieldByDeletingValue.java:45)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateEmailField.ValidateEmailFieldByEnteringInvalidEmailID" name="testValidateUserNameFieldWithInValidEmail" time="78.429" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateMobileNumberField.ValidateMobileNumberFieldByDeletingValue" name="testValidateMobileNumberByDeletingValueInPM" time="83.253">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateMobileNumberField.ValidateMobileNumberFieldByDeletingValue.testValidateMobileNumberByDeletingValueInPM(ValidateMobileNumberFieldByDeletingValue.java:45)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateMobileNumberField.ValidateMobileNumberFieldByEnteringInvalidNo" name="testValidateMobileNumberWithInvalidNo" time="80.458" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateMobileNumberField.ValidateMobileNumberFieldByEnteringExistingNo" name="testValidateMobileNumberByEnteringExistingNo" time="77.204">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForEditProfileDetails.ValidateMobileNumberField.ValidateMobileNumberFieldByEnteringExistingNo.testValidateMobileNumberByEnteringExistingNo(ValidateMobileNumberFieldByEnteringExistingNo.java:46)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePassword.ValidateCurrentUserPassWhileChangingPass.ValidateCurrentPasswordWhenChangingPassword" name="testValidateCurrentPasswordWhenChangingPassword" time="90.613" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePassword.ValidateNewAndConfirmPassword.ValidateNewPasswordAndConfirmPasswordMatch" name="testVerifyPasswordChangeWorks" time="81.912" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePassword.VerifyPasswordChangesSuccessfully.VerifyPasswordChangeWorks" name="testVerifyPasswordChangeWorks" time="84.887" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePaymentInfo.ValidateChangePaymentInfoMandatoryFields" name="testUserProfileChanges" time="87.14" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePaymentInfo.ValidateChangePaymentInfoDetailsUpdatedSuccessfully" name="testUserProfileChanges" time="94.26" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePaymentInfo.ValidateCreditCardField.ValidatePaymentInfoCreditCardNumberWithInvalidInput" name="testCCNumberWithInvalidInput" time="95.078" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePaymentInfo.ValidateExpiryMonthField.ValidatePaymentInfoMonthByEnteringInvalidMonth" name="testPaymentInfoInvalidMonth" time="101.3">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePaymentInfo.ValidateExpiryMonthField.ValidatePaymentInfoMonthByEnteringInvalidMonth.testPaymentInfoInvalidMonth(ValidatePaymentInfoMonthByEnteringInvalidMonth.java:57)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePaymentInfo.ValidateExpiryMonthField.ValidatePaymentInfoMonthMandatoryField" name="testUserProfileChanges" time="151.577">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePaymentInfo.ValidateExpiryMonthField.ValidatePaymentInfoMonthMandatoryField.testUserProfileChanges(ValidatePaymentInfoMonthMandatoryField.java:55)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePaymentInfo.ValidateYearField.ValidatePaymentInfoYearFieldByEnteringPastYear" name="testYearFieldByEnteringPastYear" time="110.98">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePaymentInfo.ValidateYearField.ValidatePaymentInfoYearFieldByEnteringPastYear.testYearFieldByEnteringPastYear(ValidatePaymentInfoYearFieldByEnteringPastYear.java:58)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePaymentInfo.ValidateYearField.ValidatePaymentInfoYearMandatoryField" name="testPaymentInfoYearMandatoryField" time="97.265">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePaymentInfo.ValidateYearField.ValidatePaymentInfoYearMandatoryField.testPaymentInfoYearMandatoryField(ValidatePaymentInfoYearMandatoryField.java:54)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePaymentInfo.ValidateSecurityField.ValidatePaymentInfoSecurityCodeWithInvalidInputLength" name="testUserProfileChanges" time="89.429" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePaymentInfo.ValidateSecurityField.ValidatePaymentInfoSecurityCodeByEnteringCharacters" name="testSecurityCodeByEnteringCharacters" time="84.719" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePinCode.VerifyChangePinCodeDetailsUpdatedSuccessfully" name="testVerifyChangePinCodeDetailsUpdatedSuccessfully" time="90.906" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePinCode.ValidateChangePinCodeAllMandatoryFields" name="testChangePinCodeAllMandatoryFields" time="89.285" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePinCode.ValidatePinCodeField.ValidateChangePinCodeByEnteringInvalidPinLength" name="testChangePinCodeByEnteringInvalidPinLength" time="91.778" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePinCode.ValidatePasswordField.ValidateChangePasswordByEnteringInvalidPass" name="testChangePasswordByEnteringInvalidPass" time="94.962" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePinCode.ValidatePinCodeField.VerifyEnteredPinIsVisibleWhenUserClicksOnDisplayPin" name="testEnteredPinIsVisibleWhenUserClicksOnDisplayPin" time="91.969" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangePinCode.ValidatePasswordField.VerifyEnteredPasswordIsVisibleWhenUserClicksOnDisplayPass" name="testEnteredPasswordIsVisibleWhenUserClicksOnDisplayPass" time="90.972" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangeActivationCode.ChangeActivationCodeWithValidAC.ValidateUserActivationCodeUpdatesSuccessfully" name="testUserActivationCodeUpdatesSuccessfully" time="85.522" />
+
+      <testcase classname="comcast.test.app.testCases.userManagement.profileManagement.RegisteredUserTestCasesForChangeActivationCode.ChangeActivationCodeWithInValidAC.ValidateUserActivationCodeByEnteringInvalidCode" name="testActivationCodeByEnteringInvalidCode" time="89.255" />
+
+      <testcase classname="comcast.test.app.common.helpHeaderFooterLinks.userRegTestCasesForHelpLink.VerifyHelpLink" name="testUserProfileChanges" time="93.081">
+          <error message="Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;old_password&quot;} Command duration or timeout: 30.09 seconds For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos; System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos; Session ID: 7456c55b-146f-4f81-8579-a70f8987e257 Driver info: org.openqa.selenium.firefox.FirefoxDriver Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=22.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;old_password&quot;}
+Command duration or timeout: 30.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Session ID: 7456c55b-146f-4f81-8579-a70f8987e257
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=22.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByName.findElement(By.java:292)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at comcast.test.app.common.userManagement.userLogin.common.UserLoginFunctions.ChangePassword(UserLoginFunctions.java:48)
+	at comcast.test.app.common.helpHeaderFooterLinks.userRegTestCasesForHelpLink.VerifyHelpLink.testUserProfileChanges(VerifyHelpLink.java:38)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;old_password&quot;}
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ANJUM~1.JAM/AppData/Local/Temp/anonymous831177344311145871webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8405)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ANJUM~1.JAM/AppData/Local/Temp/anonymous831177344311145871webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:386)
+</error>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.videoManagement.videoFeedBackManagement.VerifyFeedbackSubmitedSuccessfully" name="testVerifyFeedbackSubmitedSuccessfully" time="113.687">
+          <error message="Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;img[alt=\&quot;Ocean Life\&quot;]&quot;} Command duration or timeout: 30.16 seconds For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos; System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos; Session ID: e821dbc5-9028-4789-909b-906119b4db94 Driver info: org.openqa.selenium.firefox.FirefoxDriver Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=22.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;img[alt=\&quot;Ocean Life\&quot;]&quot;}
+Command duration or timeout: 30.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Session ID: e821dbc5-9028-4789-909b-906119b4db94
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=22.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:396)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:407)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at comcast.test.app.testCases.videoManagement.videoFeedBackManagement.VerifyFeedbackSubmitedSuccessfully.testVerifyFeedbackSubmitedSuccessfully(VerifyFeedbackSubmitedSuccessfully.java:39)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;img[alt=\&quot;Ocean Life\&quot;]&quot;}
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ANJUM~1.JAM/AppData/Local/Temp/anonymous6312697890393591741webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8405)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ANJUM~1.JAM/AppData/Local/Temp/anonymous6312697890393591741webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:386)
+</error>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.videoManagement.videoFeedBackManagement.validateMandatoryFields.ValidateAllMandatoryFieldsOfGiveFeedbackToThePublisher" name="testfeedback" time="86.942">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.videoManagement.videoFeedBackManagement.validateMandatoryFields.ValidateAllMandatoryFieldsOfGiveFeedbackToThePublisher.testfeedback(ValidateAllMandatoryFieldsOfGiveFeedbackToThePublisher.java:43)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.videoManagement.videoFeedBackManagement.validateMandatoryFields.ValidateFeedbackMessageMandatoryField" name="testValidateFeedbackMessageMandatoryField" time="83.41">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.videoManagement.videoFeedBackManagement.validateMandatoryFields.ValidateFeedbackMessageMandatoryField.testValidateFeedbackMessageMandatoryField(ValidateFeedbackMessageMandatoryField.java:43)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.videoManagement.videoFeedBackManagement.validateMandatoryFields.ValidateFeedbackSubjectMandatoryField" name="testValidateFeedbackSubjectMandatoryField" time="83.08">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at comcast.test.app.testCases.videoManagement.videoFeedBackManagement.validateMandatoryFields.ValidateFeedbackSubjectMandatoryField.testValidateFeedbackSubjectMandatoryField(ValidateFeedbackSubjectMandatoryField.java:43)
+</failure>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.videoManagement.videoSearch.searchVideoByCategory.EnsureSearchChannelStoreIsWorkingFine" name="testEnsureSearchChannelStoreIsWorkingFine" time="90.101" />
+
+      <testcase classname="comcast.test.app.testCases.videoManagement.videoSearch.searchVideoByCategory.VerifySelectedCategoryAndSubCategoryVideosAreDisplayed" name="testVerifySelectedCategoryAndSubCategoryVideosAreDisplayed" time="52.915">
+          <error message="Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;XIDIO&quot;} Command duration or timeout: 30.17 seconds For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos; System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos; Session ID: fe7c39b6-409a-4053-a1fa-57a50ce3d428 Driver info: org.openqa.selenium.firefox.FirefoxDriver Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=22.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;XIDIO&quot;}
+Command duration or timeout: 30.17 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Session ID: fe7c39b6-409a-4053-a1fa-57a50ce3d428
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=22.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:356)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at comcast.test.app.testCases.videoManagement.videoSearch.searchVideoByCategory.VerifySelectedCategoryAndSubCategoryVideosAreDisplayed.testVerifySelectedCategoryAndSubCategoryVideosAreDisplayed(VerifySelectedCategoryAndSubCategoryVideosAreDisplayed.java:29)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;XIDIO&quot;}
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ANJUM~1.JAM/AppData/Local/Temp/anonymous7516929172771681212webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8405)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ANJUM~1.JAM/AppData/Local/Temp/anonymous7516929172771681212webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:386)
+</error>
+
+      </testcase>
+
+      <testcase classname="comcast.test.app.testCases.videoManagement.videoSubscriptionManagement.paidSubscriptionForVideo.VerifySubcriptionOfPaidVideo" name="testVerifySubcriptionOfPaidVideo" time="125.264">
+          <error message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/div[1]/div[3]/div/h2&quot;} Command duration or timeout: 30.06 seconds For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos; System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos; Session ID: 623c6400-dafd-4c76-8ffa-31309d674e2b Driver info: org.openqa.selenium.firefox.FirefoxDriver Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=22.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/div[1]/div[3]/div/h2&quot;}
+Command duration or timeout: 30.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Session ID: 623c6400-dafd-4c76-8ffa-31309d674e2b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=22.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at comcast.test.app.testCases.videoManagement.videoSubscriptionManagement.paidSubscriptionForVideo.VerifySubcriptionOfPaidVideo.testVerifySubcriptionOfPaidVideo(VerifySubcriptionOfPaidVideo.java:48)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/div[1]/div[3]/div/h2&quot;}
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ANJUM~1.JAM/AppData/Local/Temp/anonymous5436985479845001637webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8405)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ANJUM~1.JAM/AppData/Local/Temp/anonymous5436985479845001637webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:386)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[ : Xidio090713083316@test.com : 9999973497
+Email ID : Xidio090713083316@test.com
+ : Xidio090713083438@test.com : 9980999249
+Email ID : Xidio090713083438@test.com
+ : Xidio090713083542@test.com : 9991379372
+Email ID : Xidio090713083542@test.com
+ : Xidio090713083702@test.com : 9981172773
+Email ID : Xidio090713083702@test.com
+ : Xidio090713083759@test.com : 9984880834
+Email ID : Xidio090713083759@test.com
+ : Xidio090713084554@test.com : 9996958054
+Email ID : Xidio090713084554@test.com
+ : Xidio090713084656@test.com : 9980716261
+Email ID : Xidio090713084656@test.com
+ : Xidio090713084742@test.com : 9982029273
+Email ID : Xidio090713084742@test.com
+ : Xidio090713084839@test.com : 9981741350
+Email ID : Xidio090713084839@test.com
+ : Xidio090713084926@test.com : 9992725343
+Email ID : Xidio090713084926@test.com
+ : Xidio090713085022@test.com : 9996049049
+Email ID : Xidio090713085022@test.com
+ : Xidio090713085107@test.com : 9989998984
+ : Xidio090713085139@test.com : 9997421396
+Email ID : Xidio090713085139@test.com
+ : Xidio090713085221@test.com : 9984466579
+Email ID : Xidio090713085221@test.com
+ : Xidio090713085534@test.com : 9981548534
+Email ID : Xidio090713085534@test.com
+ : Xidio090713085653@test.com : 9981727387
+Email ID : Xidio090713085653@test.com
+ : Xidio090713085824@test.com : 9982061724
+Email ID : Xidio090713085824@test.com
+ : Xidio090713085942@test.com : 9980582740
+Email ID : Xidio090713085942@test.com
+ : Xidio090713090101@test.com : 9994628218
+Email ID : Xidio090713090101@test.com
+ : Xidio090713090219@test.com : 9991583441
+Email ID : Xidio090713090219@test.com
+ : Xidio090713090342@test.com : 9987853761
+Email ID : Xidio090713090342@test.com
+ : Xidio090713090437@test.com : Xidio090713090437@test.com : Xidio090713090437@test.comtest userxidio090713090342@test.com
+test userXidio180613111058@test.com
+ : Xidio090713090527@test.com : 9986064497
+Email ID : Xidio090713090527@test.com
+ : Xidio090713090652@test.com : 9994298963
+Email ID : Xidio090713090652@test.com
+ : Xidio090713090814@test.com : 9999919083
+Email ID : Xidio090713090814@test.com
+ : Xidio090713090937@test.com : 9989001658
+Email ID : Xidio090713090937@test.com
+ : Xidio090713091104@test.com : 9984004521
+Email ID : Xidio090713091104@test.com
+ : Xidio090713091223@test.com : 9983947109
+Email ID : Xidio090713091223@test.com
+ : Xidio090713091340@test.com : 9984171077
+Email ID : Xidio090713091340@test.com
+ : Xidio090713091459@test.com : 9990138932
+Email ID : Xidio090713091459@test.com
+ : Xidio090713091619@test.com : 9993712313
+Email ID : Xidio090713091619@test.com
+ : Xidio090713091743@test.com : 9996295360
+Email ID : Xidio090713091743@test.com
+ : Xidio090713091902@test.com : 9981101758
+Email ID : Xidio090713091902@test.com
+ : Xidio090713092025@test.com : 9980259974
+Email ID : Xidio090713092025@test.com
+ : Xidio090713092145@test.com : 9987056217
+Email ID : Xidio090713092145@test.com
+ : Xidio090713092303@test.com : 9983335453
+Email ID : Xidio090713092303@test.com
+ : Xidio090713092433@test.com : 9980905039
+Email ID : Xidio090713092433@test.com
+ : Xidio090713092555@test.com : 9983624380
+Email ID : Xidio090713092555@test.com
+ : Xidio090713092720@test.com : 9986088565
+Email ID : Xidio090713092720@test.com
+ : Xidio090713092847@test.com : 9999721390
+Email ID : Xidio090713092847@test.com
+ : Xidio090713093021@test.com : 9984055547
+Email ID : Xidio090713093021@test.com
+ : Xidio090713093157@test.com : 9993653600
+Email ID : Xidio090713093157@test.com
+ : Xidio090713093338@test.com : 9988951481
+Email ID : Xidio090713093338@test.com
+ : Xidio090713093610@test.com : 9982390556
+Email ID : Xidio090713093610@test.com
+ : Xidio090713093800@test.com : 9998108719
+Email ID : Xidio090713093800@test.com
+ : Xidio090713093938@test.com : 9994462129
+Email ID : Xidio090713093938@test.com
+ : Xidio090713094107@test.com : 9999331632
+Email ID : Xidio090713094107@test.com
+ : Xidio090713094232@test.com : 9980738187
+Email ID : Xidio090713094232@test.com
+ : Xidio090713094403@test.com : 9991511279
+Email ID : Xidio090713094403@test.com
+ : Xidio090713094532@test.com : 9988189054
+Email ID : Xidio090713094532@test.com
+ : Xidio090713094704@test.com : 9992168101
+Email ID : Xidio090713094704@test.com
+ : Xidio090713094839@test.com : 9999115220
+Email ID : Xidio090713094839@test.com
+ : Xidio090713095011@test.com : 9996683103
+Email ID : Xidio090713095011@test.com
+ : Xidio090713095142@test.com : 9982755467
+Email ID : Xidio090713095142@test.com
+ : Xidio090713095307@test.com : 9986315865
+Email ID : Xidio090713095307@test.com
+ : Xidio090713095437@test.com : 9982545635
+Email ID : Xidio090713095437@test.com
+ : Xidio090713095610@test.com : 9999839127
+Email ID : Xidio090713095610@test.com
+ : Xidio090713095803@test.com : 9994377907
+Email ID : Xidio090713095803@test.com
+ : Xidio090713095930@test.com : 9988205183
+Email ID : Xidio090713095930@test.com
+ : Xidio090713100053@test.com : 9990373623
+Email ID : Xidio090713100053@test.com
+ : Xidio090713100217@test.com : 9996677171
+Email ID : Xidio090713100217@test.com
+ : Xidio090713100440@test.com : 9980682630
+Email ID : Xidio090713100440@test.com
+]]></system-out>
+
+      <system-err />
+
+  </testsuite>
+</testsuites>
