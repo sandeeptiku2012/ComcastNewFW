@@ -7,7 +7,7 @@
     <property name="source" value="1.6"/>
     <path id="WebDriver.classpath">
     	<pathelement location="bin"/>
-       <pathelement location="../ComcastNewFW/lib/selenium-server-standalone-2.32.0.jar"/>    	  
+       <pathelement location="/Users/Valtech/.jenkins/workspace/SeleniumNewFM/lib/selenium-server-standalone-2.32.0.jar"/>    	  
     </path>
     <target name="init">
         <mkdir dir="bin"/>
